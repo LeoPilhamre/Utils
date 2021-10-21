@@ -1,0 +1,12 @@
+C:\Coding\CSharp\utils\Interface\Interface.Library\bin\Debug\net5.0\Interface.Library.deps.json
+C:\Coding\CSharp\utils\Interface\Interface.Library\bin\Debug\net5.0\Interface.Library.dll
+C:\Coding\CSharp\utils\Interface\Interface.Library\bin\Debug\net5.0\ref\Interface.Library.dll
+C:\Coding\CSharp\utils\Interface\Interface.Library\bin\Debug\net5.0\Interface.Library.pdb
+C:\Coding\CSharp\utils\Interface\Interface.Library\obj\Debug\net5.0\Interface.Library.csproj.AssemblyReference.cache
+C:\Coding\CSharp\utils\Interface\Interface.Library\obj\Debug\net5.0\Interface.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding\CSharp\utils\Interface\Interface.Library\obj\Debug\net5.0\Interface.Library.AssemblyInfoInputs.cache
+C:\Coding\CSharp\utils\Interface\Interface.Library\obj\Debug\net5.0\Interface.Library.AssemblyInfo.cs
+C:\Coding\CSharp\utils\Interface\Interface.Library\obj\Debug\net5.0\Interface.Library.csproj.CoreCompileInputs.cache
+C:\Coding\CSharp\utils\Interface\Interface.Library\obj\Debug\net5.0\Interface.Library.dll
+C:\Coding\CSharp\utils\Interface\Interface.Library\obj\Debug\net5.0\ref\Interface.Library.dll
+C:\Coding\CSharp\utils\Interface\Interface.Library\obj\Debug\net5.0\Interface.Library.pdb
