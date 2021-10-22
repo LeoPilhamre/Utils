@@ -9,9 +9,9 @@ namespace Interface.Library
         double Distance { get; }
     }
 
-    public class Stade : IStade
+    public class StadeInterface : IStade
     {
-        public Stade(int x, int y)
+        public StadeInterface(int x, int y)
         {
             X = x;
             Y = y;
