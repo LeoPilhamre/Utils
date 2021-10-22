@@ -14,6 +14,7 @@ namespace Interface
             WriteSub();
             WriteDiv();
             WriteMul();
+            WriteDist();
         }
 
         private void Write(object x, object y){
@@ -55,6 +56,14 @@ namespace Interface
 
             Console.WriteLine("Multiplication: ");
             Write(x, y);
+        }
+
+        private void WriteDist()
+        {
+            double distance = Tests.TestDist();
+
+            Console.WriteLine("Distance: ");
+            Console.WriteLine(distance.ToString());
         }
     }
 }

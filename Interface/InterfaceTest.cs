@@ -10,6 +10,8 @@ namespace Interface
 
         private readonly double c = -1.0d;
         private readonly double d = 1.5d;
+
+        private readonly (int, int) p = (1, -1);
     }
 
     public partial class InterfaceTest
@@ -61,6 +63,21 @@ namespace Interface
             double y = obj.Mul(c, d);
 
             return (x, y);
+        }
+    }
+
+    public partial class InterfaceTest
+    {
+        public double TestDist()
+        {
+            int x = p.Item1;
+            int y = p.Item2;
+
+            StadeInterface obj = new StadeInterface(x, y);
+
+            double distance = obj.Distance;
+
+            return distance;
         }
     }
 }
