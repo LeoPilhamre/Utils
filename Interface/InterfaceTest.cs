@@ -12,6 +12,32 @@ namespace Interface
         private readonly double d = 1.5d;
 
         private readonly (int, int) p = (1, -1);
+
+        private readonly string s = "Lorem ipsum!";
+    }
+
+    public partial class InterfaceTest
+    {
+        public string TestReverse()
+        {
+            StringUtils obj = new StringUtils();
+
+            string r = obj.reverse(s);
+
+            return r;
+        }
+    }
+
+    public partial class InterfaceTest
+    {
+        public char TestCharAt()
+        {
+            StringUtils obj = new StringUtils();
+
+            char c = obj.charAt(s, 0);
+
+            return c;
+        }
     }
 
     public partial class InterfaceTest

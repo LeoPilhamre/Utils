@@ -10,6 +10,8 @@ namespace Interface
         {
             Tests = new InterfaceTest();
 
+            WriteReverse();
+            WriteCharAt();
             WriteAdd();
             WriteSub();
             WriteDiv();
@@ -20,6 +22,22 @@ namespace Interface
         private void Write(object x, object y){
             Console.WriteLine(x.ToString());
             Console.WriteLine(y.ToString());
+        }
+
+        private void WriteReverse()
+        {
+            string r = Tests.TestReverse();
+
+            Console.WriteLine("Reversed: ");
+            Console.WriteLine(r);
+        }
+
+        private void WriteCharAt()
+        {
+            char c = Tests.TestCharAt();
+
+            Console.WriteLine("Char at 0: ");
+            Console.WriteLine(c);
         }
 
         private void WriteAdd()
